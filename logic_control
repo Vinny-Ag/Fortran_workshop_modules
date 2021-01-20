@@ -1,0 +1,24 @@
+program logic_control
+
+!example
+
+If(...) then
+  {do something}
+else
+  {do something else}
+endif
+
+
+!the way the IF-block works, is if the logic applies at any one of the if,elseif, or else steps; then some action is taken at that step and that is the end of the IF-block
+!the final else
+If(...) then
+  {do something}
+elseif(...)
+  {do something else}
+elseif(...)
+  {do something else}
+else
+  {do something else}
+endif
+
+!boolean operators .and. & .or.
