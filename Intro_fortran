@@ -1,0 +1,10 @@
+Program Intro_notes
+
+! Keep in mind that all words are case sensitive in fortran
+! we start every program with the "program" tag and we can name the prgram after the tag
+! all comments begin with an exclamation point
+! to print a statement we use the following format:    print *,'this is what will be printed'
+
+! every program must be explicitly ended with End or End program or End program name
+
+End
