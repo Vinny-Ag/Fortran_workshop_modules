@@ -1,0 +1,89 @@
+four types of program units
+
+!main program
+
+program prgram_name
+
+end program
+
+!functions
+!intrinsic and external
+!intrinsic are those built in like sin, cos, absolute_value, etc
+!external functions are built by us as an extension to the greater pgrogream 
+!compiler companies that claim to support function standards should correctly compile intrinsic functions 
+!there can be compilers that "extend" the function of intrinsic functions
+
+!general example
+function function_name
+
+end function
+
+!example 2 (only integer part will be retrurned)
+intval=int(5.7)
+Print *,'intval=', intval
+  output: "intval=5"
+
+!example 3
+intval = int(real(3)/real(2))
+print *,'invalt=', intval
+  output:"intval=1"
+ 
+!example 4
+intval =-5
+if(abs(intval).ge.4) then
+  print *,'YES'
+else
+  print *,'NO'
+endif
+  output: "YES"
+
+  
+
+
+
+!subroutines
+!similar to a function but the end result may be to return a number or some task that has no return value.
+!subroutines are "called" from some other program unit
+
+!example 1
+
+Subroutine Break(x, whole, frac)
+!this breaks a real number (x) into its (whole) and
+!fractional (frac) parts
+
+!variable declarations
+
+real:: x,frac
+integer::whole
+
+!now the routine
+
+whole = int(x)
+frac = x-float(whole)
+
+return
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+!modules
